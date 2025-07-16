@@ -25,7 +25,7 @@ resource "azurerm_virtual_network" "exerciseterra_vnet" {
  
 resource "azurerm_subnet" "subnet1" {
     name                 = "exercisesubnet1"
-    resource_group_name  = azurerm_resource_group.exerciseterraa.name
+    resource_group_name  = azurerm_resource_group.exerciseterra.name
     virtual_network_name = azurerm_virtual_network.exerciseterra_vnet.name
     address_prefixes     = ["10.0.1.0/24"]
 }
