@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "exerciseterra" {
     location = "East US"
 }
  
-resource "azurerm_storage_account" "souterra" {
+resource "azurerm_storage_account" "nevuriterra" {
     name                     = "terrastoragesounevuri2806"
     resource_group_name      = azurerm_resource_group.exerciseterra.name
     location                 = azurerm_resource_group.exerciseterra.location
