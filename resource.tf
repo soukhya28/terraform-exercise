@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "exerciseterra" {
 }
  
 resource "azurerm_storage_account" "nevuriterra" {
-    name                     = "terrastoragesounevuri2806"
+    name                     = "terrastoragenevu2806"
     resource_group_name      = azurerm_resource_group.exerciseterra.name
     location                 = azurerm_resource_group.exerciseterra.location
     account_tier             = "Standard"
